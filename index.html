@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device_width, initial scale =1.0">
+    <title> Portfolio Website</title>
+    <link rel="stylesheet" href="style1.css">
+    <!--font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#qualification">Qualification</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h4>Hello there...</h4>
+            <h2>Atchaya Alagudurai</h2>
+            <h3>A Passionate <span class="multiple-text"></span></h3>
+            <p>Innovative Front-End Developer a passion for creating dynamic,user-friendly
+                web applications and a keen eye for responsive design and modern web technologies</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/atchaya-alagudurai-94789a247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/kabiatchu20"><i class="fa-brands fa-github"></i></a>
+                <a href="certificate" type="button"><i
+                        class="fa-solid fa-certificate"></i></a>
+            </div>
+            <div><a href="ATCHAYA A.pdf" type="button"
+                    class="btn">Download CV</a></div>
+        </div>
+        <img src="Atchu.jpeg" class="img1" alt="">
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+        <img src="Atchu.jpeg" class="img1" alt="">
+        <div class="about-content">
+            <h2 class="heading"><span>About </span>Me</h2>
+            <h3>Front-End Developer | ECE Engineer</h3>
+            <p>I am an ECE engineering student with a passion for front-end development.I am currently looking for a job
+                in this field to apply my skills and knowledge.I possess strong communication skills,which help me
+                effectively collaborate with team members and articulate my ideas clearly.
+                As an optimistic person,I approach challenges with a positive mindset and determination.I have the
+                ability to handle situations efficiently and find practical solutions.I am enthusiastic about learning
+                and growing in the field of web development.
+                My goal is to secure a position where I can contribute to innovative projects and enhance user
+                experiences.</p>
+
+        </div>
+    </section>
+
+    <!--Project-->
+    <div class="project" id="project">
+        <h2 class="heading">My<span> Projects</span></h2>
+        <div class="pics">
+            <div class="box1">    
+                <img src="Hardware.jpg">
+                <h3>HARDWARE PROJECTS</h3>
+                <ul class="list">
+                    <li>Theft alert notification using Bylnk iot</li>
+                    <li>Iot based Patient Health Monitoring System</li>
+                    <li>Automatic Plant Watering system</li>
+                </ul>
+            </div>
+            <div class="box1">
+                <img src="software.jpg">
+                <h3>SOFTWARE PROJECTS</h3>
+                <ul class="list">
+                    <li>Responsive Website</li>
+                    <li>Bank loan calculator(Mini Project)</li>
+                    <li>Tic Tac Toe(Mini Project)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--qualification-->
+    <div class="qualification" id="qualification">
+        <h2 class="heading"><span>Qualification</span> Details</h2>
+        <div class="pics">
+            <div class="box">
+                <img src="images (2).png">
+                <h5>Dhanalakshmi Srinivasan Matric Higher Secondary School - Perambalur</h5>
+                <h4>SSLC- 92.8% (2018-2019)</h4>
+            </div>
+            <div class="box">
+                <img src="images (1).png">
+                <h5>Sri Ramakrishna Matric Higher Secondary School - Perambalur</h5>
+                <h4>HSC- 95.43% (2020-2021)</h4>
+            </div>
+            <div class="box">
+                <img src="gct_logo_1(2).png">
+                <h5>Government College of Technology - Coimbatore</h5>
+                <h4>CGPA- 8.50* (2021-2025)</h4>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact<span> Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+        </form>
+        <textarea name="" id="" cols="15" rows="10" placeholder="Your message"></textarea>
+        <input type="submit" value="Send message" class="btn3">
+    </section>
+
+    <!--Footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @atchaya | All Rights Reserved.
+            </p>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--scroll js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--main js-->
+    <script src="main.js"></script>
+</body>
+
+</html>
